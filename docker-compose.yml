@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+  zimu-go:
+    image: zimu-go:latest
+    container_name: zimu-backend
+    ports: 
+      - "8777:8777"
+    restart: "always"
+    depends_on:
+      - "redis"
+  redis:
+    image: redis:5-alpine
+    container_name: zimu-redis
+    ports:
+      - "6379:6379"
+    restart: "always"

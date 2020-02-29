@@ -1,0 +1,7 @@
+{
+  "jwt": "RUSSELINVIETNAM",
+  "port": "8777",
+  "redis": "zimu-redis:6379",
+  "redisToken": "TT15oTPemNz2YEEaeTASUR1ZXqr99NaiBHRDbMAs44",
+  "apiKey": "imBSUkqNlBaZKFb2Mbxzd9VAzSreAjE26JhPmjW3"
+}
